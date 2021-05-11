@@ -1,0 +1,27 @@
+/*(Cutullic Mathis)*/
+
+* {
+    width: 100%;
+}
+
+.main {
+    background-color: rgb(182, 167, 149);
+}
+
+h2, h1, h3, h4 {
+    text-align: center;
+}
+
+.bande {
+    width:100%;
+}
+
+.hover2:hover {
+    width:110%;
+}
+
+@media(max-width: 780px) {
+    .photoaside {
+        display: none;   
+    }  
+}

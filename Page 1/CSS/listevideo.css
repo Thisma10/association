@@ -1,0 +1,97 @@
+/*(Cutullic Mathis)*/
+
+.main {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagesynopsis {
+    width:400px;
+    border: solid 1px black;
+}
+
+.presentation1 {
+    text-align: center;
+}
+
+.contenu {
+    word-break: break-word;
+    text-align: left;  
+}
+
+
+ul {
+    list-style-position: inside;
+    list-style: none;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fond {
+    background-color: rgb(182, 167, 149);
+}
+
+h2 {
+    text-align: center;
+}
+
+.txsynopsis {
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+
+.Synopsis {
+    text-align:justify;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fondimage {
+    background-image: url(../imagepage1/Presentation\ projet.jpeg);
+}
+
+.affiche {
+    padding:20px;
+}
+
+@media(max-width: 1750px) {
+    .affichesize {
+        display: none;
+    }
+}
+
+@media(max-width: 780px) {
+    .photoaside {
+        display: none;   
+    }  
+}
+  
+.normalwrite1 {
+    font-weight: lighter;
+    font-size: 1em;
+    text-decoration: none;
+    margin:1em;
+}
+
+.bande {
+    width:100%;
+}
+
+.txprojet {
+    margin: 1em;
+    padding: 1em;
+    background: rgb(182, 167, 149);
+}
+
+.hover4:hover {
+    width:110%;
+}

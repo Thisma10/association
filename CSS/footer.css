@@ -1,0 +1,48 @@
+/*(Cutullic Mathis)*/
+
+footer {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
+    box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
+}
+
+.menufooter {
+    color: black;
+    text-decoration: none;
+}
+
+.reseaux {
+    width: 50px
+}
+
+.helloasso {
+    width:100px
+}
+
+@media(max-width: 500px) {
+    .reseaux {
+        width: 40px;
+    }
+
+    .helloasso {
+        width: 75px;
+    }
+}
+
+.border-left {
+    border-left: solid 5px black;
+}
+
+ul {
+    list-style-position: inside;
+    list-style: none;
+}

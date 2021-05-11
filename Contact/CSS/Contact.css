@@ -1,0 +1,111 @@
+/*(Cutullic Mathis)*/
+
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+/* Main Styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+  
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+  
+p {
+    margin: 10px 0;
+}
+  
+/* Rubrique */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+  
+.text-primary {
+    color: #9c7a57;
+}
+  
+.lead {
+    font-size: 20px;
+}
+  
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background: grey;
+    color: whitesmoke;
+}
+  
+.bg-dark {
+    background: black;
+    color: white;
+}
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+  
+/* Padding */
+.pad { 
+    padding: 30px 0; 
+}
+ 
+/* ajout */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align:center;
+}
+  
+.box i {
+    margin-bottom: 10px;
+}
+ 
+/* Contact Form */
+  #contact-form .form-group {
+    margin-bottom: 20px;
+}
+  
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+  
+#contact-form textarea {
+    height: 200px;
+}
+  
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}

@@ -1,0 +1,16 @@
+/*(Cutullic Mathis)*/
+
+.lienfilm {
+    color: black;
+    background:rgb(182, 167, 149);
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.centrage {
+    text-align: center;
+}
+
+.bannière {
+    width: 100%;
+}

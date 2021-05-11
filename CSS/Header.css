@@ -1,0 +1,58 @@
+/*(Cutullic Mathis)*/
+
+*{
+    width:100%
+}
+
+header {
+    width:100%;
+}
+
+.fondnoir {
+    background: black;
+}
+
+.parentlogo {
+    position: relative;
+}
+
+.logo {
+    width:100px;
+    padding:10px;
+    position: relative;
+    transform: translate(10%, 0%);
+    border-radius: 150px;
+    border: black;
+}
+
+.cadre {
+    mix-blend-mode: exclusion;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.nonbold {
+    font-weight: normal;
+    font-size: 1em
+}
+
+.normalwrite {
+    font-weight: lighter;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    margin:1em;
+}
+
+.hover:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.hover1:hover {
+    color: white;
+    text-decoration: none;
+}
